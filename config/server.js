@@ -1,0 +1,18 @@
+module.exports={
+  local:{
+    open:true,
+    port:3000
+  },
+  net:{
+    open:false,
+    port:8087,
+  },
+  http:{
+    open:false,
+    port:80
+  },
+  https:{
+    open:false,
+    port:443
+  }
+}
